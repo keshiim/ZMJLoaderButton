@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ZMJLoaderButton: UIButton {
+public class ZMJLoaderButton: UIButton {
     
     lazy var arrow: CAShapeLayer = {
             let _arrow: CAShapeLayer = CAShapeLayer()
@@ -24,7 +24,7 @@ class ZMJLoaderButton: UIButton {
     
     public static var loaderButtonColor: UIColor?
 
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         progressView = ZMJLoaderButtonProgressView.init(frame: frame)
     
         super.init(frame: frame)
@@ -34,7 +34,7 @@ class ZMJLoaderButton: UIButton {
         self.addArrow()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 

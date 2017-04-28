@@ -15,15 +15,16 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'keshiim' => 'keshiim@163.com' }
   s.source           = { :git => 'https://github.com/keshiim/ZMJLoaderButton.git', :tag => s.version.to_s }
-   s.social_media_url = 'http://weibo.com/1997859257/profile?rightmod=1&wvr=6&mod=personinfo'
+  s.social_media_url = 'http://weibo.com/1997859257/profile?rightmod=1&wvr=6&mod=personinfo'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZMJLoaderButton/Classes/**/*'
-  
+  s.source_files = 'ZMJLoaderButton/Classes/**/*.swift'
+  s.requires_arc     = true
+
   s.resource_bundles = {
       'ZMJLoaderButton' => ['ZMJLoaderButton/Assets/*.{png,xcassets}']
   }
    
-   s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
 end

@@ -1,10 +1,11 @@
-source 'https://github.com/CocoaPods/Specs.git'
 inhibit_all_warnings!
 use_frameworks!
+platform :ios, '8.3'
 
 target 'ZMJLoaderButton_Example' do
   pod 'ZMJLoaderButton', :path => '../'
-
+  pod 'Alamofire'
+  
   target 'ZMJLoaderButton_Tests' do
     inherit! :search_paths
 

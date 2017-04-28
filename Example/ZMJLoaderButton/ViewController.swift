@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 import ZMJLoaderButton
 
 class ViewController: UIViewController {
@@ -15,8 +16,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //let loaderBtn = ZMJLoaderButton.init()
+        //预先配置颜色
+        ZMJLoaderButton.loaderButtonColor = UIColor.purple
         
+        let loaderBtn = ZMJLoaderButton.init(frame: .init(x: 0, y: 0, width: 150, height: 150))
+        loaderBtn.center = self.view.center
+        
+        self.view.addSubview(loaderBtn)
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,4 +31,3 @@ class ViewController: UIViewController {
     }
 
 }
-

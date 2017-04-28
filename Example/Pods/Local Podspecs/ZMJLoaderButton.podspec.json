@@ -18,14 +18,12 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZMJLoaderButton/Classes/**/*",
+  "source_files": "ZMJLoaderButton/Classes/**/*.swift",
+  "requires_arc": true,
   "resource_bundles": {
     "ZMJLoaderButton": [
       "ZMJLoaderButton/Assets/*.{png,xcassets}"
     ]
   },
-  "frameworks": [
-    "UIKit",
-    "MapKit"
-  ]
+  "frameworks": "UIKit"
 }
