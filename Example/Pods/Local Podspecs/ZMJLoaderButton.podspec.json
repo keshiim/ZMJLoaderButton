@@ -1,0 +1,22 @@
+{
+  "name": "ZMJLoaderButton",
+  "version": "0.1.0",
+  "summary": "A short description of ZMJLoaderButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/keshiim/ZMJLoaderButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "keshiim": "keshiim@163.com"
+  },
+  "source": {
+    "git": "https://github.com/keshiim/ZMJLoaderButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZMJLoaderButton/Classes/**/*"
+}

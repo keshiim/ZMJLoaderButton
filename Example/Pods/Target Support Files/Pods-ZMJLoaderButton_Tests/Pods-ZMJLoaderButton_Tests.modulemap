@@ -1,0 +1,6 @@
+framework module Pods_ZMJLoaderButton_Tests {
+  umbrella header "Pods-ZMJLoaderButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

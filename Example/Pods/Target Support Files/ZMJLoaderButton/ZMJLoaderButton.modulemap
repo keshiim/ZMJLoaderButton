@@ -1,0 +1,6 @@
+framework module ZMJLoaderButton {
+  umbrella header "ZMJLoaderButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -29,10 +29,10 @@
 
 /* Begin PBXFileReference section */
 		1079CFE9E1311E1700316B2E /* Pods-ZMJLoaderButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMJLoaderButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMJLoaderButton_Example/Pods-ZMJLoaderButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		208B7378A904956323CFE1DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		208B7378A904956323CFE1DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2BA5DC285D998DC260193F7C /* Pods_ZMJLoaderButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMJLoaderButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		310F3202CA73CEB7DA581CEA /* Pods-ZMJLoaderButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMJLoaderButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMJLoaderButton_Tests/Pods-ZMJLoaderButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4AB1878388302DBB5CA5746F /* ZMJLoaderButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZMJLoaderButton.podspec; path = ../ZMJLoaderButton.podspec; sourceTree = "<group>"; };
+		4AB1878388302DBB5CA5746F /* ZMJLoaderButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZMJLoaderButton.podspec; path = ../ZMJLoaderButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E78839A73AB4C648060B9B1 /* Pods-ZMJLoaderButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMJLoaderButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMJLoaderButton_Example/Pods-ZMJLoaderButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ZMJLoaderButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMJLoaderButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* ZMJLoaderButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMJLoaderButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		BC9E7F5EB7C0C8B7684E79A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC9E7F5EB7C0C8B7684E79A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FD1BF24002E422ECFBB67C8F /* Pods_ZMJLoaderButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMJLoaderButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF60E8CAC18432C4F664CE58 /* Pods-ZMJLoaderButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMJLoaderButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMJLoaderButton_Tests/Pods-ZMJLoaderButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
