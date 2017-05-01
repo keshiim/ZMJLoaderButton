@@ -18,10 +18,9 @@ class ViewController: UIViewController {
         
         //预先配置颜色
         ZMJLoaderButton.loaderButtonColor = UIColor.purple
-        
+        //初始化
         let loaderBtn = ZMJLoaderButton.init(frame: .init(x: 0, y: 0, width: 150, height: 150))
         loaderBtn.center = self.view.center
-        
         self.view.addSubview(loaderBtn)
     }
 
