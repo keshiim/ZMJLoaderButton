@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         //预先配置颜色
         ZMJLoaderButton.loaderButtonColor = UIColor.purple
         //初始化
