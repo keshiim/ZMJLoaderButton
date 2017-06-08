@@ -93,4 +93,14 @@ class ZMJLoaderMath: NSObject {
         
         return ans
     }
+
+    typealias Byte = UInt8
+    func toByteArray<T>(_ value: T) -> [Byte] {
+        var value = value
+        return withUnsafePointer(to: &value) {
+            $0.withMemoryRebound(to: Byte.self, capacity: MemoryLayout<T>.size) {
+                Array(UnsafeBufferPointer(start: $0, count: MemoryLayout<T>.size))
+            }
+        }
+    }
 }
